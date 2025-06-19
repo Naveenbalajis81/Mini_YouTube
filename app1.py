@@ -20,7 +20,7 @@ def search():
     if not query:
         return jsonify({"error": "Missing search query"}), 400
 
-    url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q={query}&maxResults=10&key={YOUTUBE_API_KEY}"
+    url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q={query}&maxResults=10&videoEmbeddable=true&key={YOUTUBE_API_KEY}"
     response = requests.get(url)
 
     if response.status_code != 200:
