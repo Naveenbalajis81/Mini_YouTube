@@ -1,7 +1,9 @@
+.env
+.gitignore
 app.py
 static/styles.css
 templates/eg.html
 templates/fun.html
 templates/index.html
 .youtube
-.env
+
