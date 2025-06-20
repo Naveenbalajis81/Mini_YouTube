@@ -74,7 +74,7 @@ YouTube Demo Video: Add link if available
 
 ### 📸 Screenshots
 
-![Demo](./images/demo.png.png)
+![Demo](/images/demo.png.png)
 
 ### 🤝 Contributing
 Contributions are welcome! Follow these steps:
